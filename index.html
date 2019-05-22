@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+  <div class="container">
+
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand">
+        <i class="fab fa-itunes fa-2x d-inline-block align-top"></i>
+        iTunes API
+      </a>
+    </nav>
+
+    <div class="input-group mb-5 mt-3">
+      <!-- <div class="input-group-prepend">
+        <button id="media" type="button" class="btn btn-outline-secondary">all</button>
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <li class="dropdown-item pointer">all</li>
+          <li class="dropdown-item pointer">movie</li>
+          <li class="dropdown-item pointer">podcast</li>
+          <li class="dropdown-item pointer">music</li>
+          <li class="dropdown-item pointer">musicVideo</li>
+          <li class="dropdown-item pointer">audiobook</li>
+          <li class="dropdown-item pointer">shortFilm</li>
+          <li class="dropdown-item pointer">tvShow</li>
+          <li class="dropdown-item pointer">software</li>
+          <li class="dropdown-item pointer">ebook</li>
+        </div>
+      </div> -->
+      <input type="text" id="search-word" class="form-control" aria-label="Text input with segmented dropdown button">
+      <button id="search-btn" class="btn btn-info">検索</button>
+    </div>
+
+    <div class="p-3 mb-3 bg-primary text-white rounded">検索結果</div>
+
+    <div id="result" class="card-body d-flex flex-row flex-wrap justify-content-around">
+      <!-- <div class="card mb-5" style="width: 18rem;">
+        <img class="card-img-top" src="https://is4-ssl.mzstatic.com/image/thumb/Music62/v4/31/36/f2/3136f250-e43b-2835-19ee-733dca9f4c96/source/600x600bb.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">LOSER / ナンバーナイン - Single</h5>
+          <a href="#" class="btn btn-primary">Detail</a>
+        </div>
+      </div> -->
+    </div>
+    
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
